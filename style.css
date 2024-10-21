@@ -292,7 +292,6 @@ animation-timing-function: ease-in-out;
 }
 .projects div .sub-heading {
   background: -webkit-linear-gradient(rgb(255, 98, 0), rgb(27, 4, 75));
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
   font-weight: 600;
