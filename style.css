@@ -53,7 +53,7 @@ nav .navbar {
 }
 .menu li {
   list-style: none;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 .navbar .menu li a {
   text-decoration: none;
@@ -73,7 +73,7 @@ nav .navbar {
   align-items: center;
   justify-content: space-evenly;
 }
-@media screen and (max-width:1104px) {
+@media screen and (max-width:500px) {
   .home .myself{
     font-size: 20px;
   }
@@ -81,7 +81,7 @@ nav .navbar {
     font-size: 35px;
   }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:500px) {
   .home .myself{
     font-size: 15px;
   }
@@ -89,7 +89,7 @@ nav .navbar {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 500px) {
   nav .navbar .menu{
     display: flex;
     flex-wrap:wrap;
@@ -102,12 +102,12 @@ nav .navbar {
     height: 70px;
   }
 }
-@media screen and (max-width: 310px){
+@media screen and (max-width: 500px){
   nav .navbar .logo a{
     padding-left: 0px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   nav .navbar {
     display: flex;
     flex-direction: column;
@@ -222,19 +222,19 @@ nav .navbar {
   padding-top: 50px;
   height: auto;
 }
-@media screen and (max-width:992px){
+@media screen and (max-width:500px){
     .skills .grid-container{
         display: grid;
         grid-template-columns: auto auto auto;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
     .skills .grid-container{
         display: grid;
         grid-template-columns: auto auto;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .skills .grid-container{
         display: grid;
         grid-template-columns: auto;
@@ -293,6 +293,7 @@ animation-timing-function: ease-in-out;
 .projects div .sub-heading {
   background: -webkit-linear-gradient(rgb(255, 98, 0), rgb(27, 4, 75));
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   font-size: 50px;
   font-weight: 600;
   text-align: center;
@@ -371,7 +372,7 @@ animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .projects {
     height: auto;
     padding-bottom: 0;
@@ -494,15 +495,12 @@ animation-timing-function: ease-in-out;
     background-color: rgb(0, 183, 255);
     color: rgb(117, 234, 136);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   
     .contact {
       padding: 20px;
       display: flex;
       flex-direction: column;
-    }
-    .contact-form form input, textarea {
-      width: 370px;
     }
     .contact-form {
       width: 100%;
@@ -557,7 +555,7 @@ animation-timing-function: ease-in-out;
 .footer .links div {
     padding: 0 20px;
 }
-@media screen and (max-width:410px) {
+@media screen and (max-width:500px) {
   .footer .cc{
     padding-top: 15px;
     
@@ -576,7 +574,7 @@ animation-timing-function: ease-in-out;
   }
   .footer{font-size: 12px;}
 }
-@media screen and (max-width:230px) {
+@media screen and (max-width:500px) {
   .footer{
     font-size: 10px;
   }
