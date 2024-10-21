@@ -131,7 +131,6 @@ nav .navbar {
     width: 100% !important;
   }
   .home .photo{
-    padding-bottom: 50px;
     width: 100% !important;
     height: 100% !important;
   }
@@ -169,7 +168,7 @@ nav .navbar {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
-.home .myself .resume a {
+.home .resume a {
   text-decoration: none;
   color: #fff;
   font-style: italic;
@@ -190,7 +189,7 @@ nav .navbar {
   border: 0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
-.myself a {
+.resume a {
   padding-right: 15px;
   color: rgba(75, 73, 73, 0.8);
 }
@@ -488,7 +487,7 @@ animation-timing-function: ease-in-out;
   height: 35px;
   padding: 0 10px;
   box-shadow: 0 10px 8px rgba(0, 0, 0, 0.7);
-  left: 40%;
+  left: 32%;
     position: relative;
 }
 .submitbtn:hover{
