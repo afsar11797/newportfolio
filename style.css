@@ -7,7 +7,24 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-
+.background-video{
+  height: 1000px;
+    width: 1000px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.bg-video {
+  position: absolute;
+  height: 2600px;
+  width: 1450px;
+  opacity: 0.1;
+  overflow: hidden;
+}
+.bg-video-content{
+  height: 100%;
+    width: 100%;
+  object-fit: cover;
+}
 .heading__intro {
   font-style: italic;
   display: flex;
@@ -80,6 +97,15 @@ nav .navbar {
   .myself .nameColor{
     font-size: 35px;
   }
+  
+.bg-video-content {
+  width: 480px;
+  height: 6530px;
+}
+.bg-video {
+  width: auto;
+  height: auto;
+}
 }
 @media screen and (max-width:500px) {
   .home .myself{
@@ -238,7 +264,6 @@ nav .navbar {
         display: grid;
         grid-template-columns: auto;
     }
-
 }
 .grid-container {
   display: grid;
