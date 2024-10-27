@@ -13,6 +13,15 @@
   width: 100%;
   height: 65%;
 }
+
+@media (max-width:500px){
+  
+  #animation-surface {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+}
 .heading__intro {
   font-style: italic;
   display: flex;
