@@ -71,6 +71,7 @@ nav .navbar {
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #1c1b1b;
 }
 @media screen and (max-width:500px) {
   .home .myself{
@@ -580,4 +581,7 @@ animation-timing-function: ease-in-out;
 
 
 
-
+header {
+  
+  display: none;
+}
