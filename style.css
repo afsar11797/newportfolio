@@ -7,6 +7,12 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+
+#animation-surface{
+  position: absolute;
+  width: 100%;
+  height: 65%;
+}
 .heading__intro {
   font-style: italic;
   display: flex;
@@ -25,10 +31,10 @@ nav .navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: auto;
   height: 100%;
-  max-width: 90%;
+  background: #323131;
 }
 .logo a {
   font-family: "Zeyada" , ;
@@ -71,7 +77,6 @@ nav .navbar {
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #1c1b1b;
 }
 @media screen and (max-width:500px) {
   .home .myself{
@@ -161,9 +166,6 @@ nav .navbar {
   border-radius: 10px;
   height: 80%;
   width: 84%;
-  box-shadow: 20px 20px 20px 15px rgba(0, 0, 0, 0.7);
-  z-index: -1;
-  filter: saturate(1.75);
   animation-name: fade-in-right;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -576,12 +578,4 @@ animation-timing-function: ease-in-out;
   .footer{
     font-size: 10px;
   }
-}
-
-
-
-
-header {
-  
-  display: none;
 }
