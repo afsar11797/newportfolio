@@ -2,7 +2,7 @@ window.addEventListener("load", init);
 window.addEventListener("resize", resize);
 
 var particles = [];
-var particleCount = 100;
+var particleCount = 50;
 
 var canvas = null;
 var context = null;
