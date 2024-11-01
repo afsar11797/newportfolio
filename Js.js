@@ -10,23 +10,6 @@ var context = null;
 var palette = ["#F00", "#0F0", "#00F", "#FF0"];
 
 var gradient = null;
-
-//var particleX = 400;
-//var particleY = 400;
-//
-//var vx = 3;
-//var vy = 2;
-
-//var particle = {
-//
-//    x : 400,
-//    y : 400,
-//    vx : 150,
-//    vy : 100,
-//    radius : 20
-//
-//}
-// Initializes the drawing example after the browser window had finished loading the DOM.
 function init() {
   console.log("This is a Test");
 
@@ -102,8 +85,6 @@ function drawParticle(context, particle) {
   context.closePath();
   context.fill();
 }
-
-//resizes the canvas to match the browser window
 
 function resize() {
   if (canvas) {
